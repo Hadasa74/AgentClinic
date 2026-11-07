@@ -17,7 +17,10 @@ This feature is considered complete when the frontend foundation is installed, r
    - A minimal AgentClinic home page is visible and communicates the mission of the clinic.
    - The top-level page layout is visible and structured.
    - Key clinic sections or navigation are represented clearly.
-   - The screen is readable and usable on common desktop viewport sizes.
+   - The screen is readable and usable at representative phone (320px), tablet
+     (768px), and desktop (1280px) viewport widths.
+   - Navigation, cards, and session details remain visible without page-level
+     horizontal scrolling.
 
 4. The implementation matches the product direction.
    - The app reflects AgentClinic's mission of providing trustworthy, usable care workflows.
@@ -32,6 +35,8 @@ This feature is considered complete when the frontend foundation is installed, r
 The feature can be merged when all of the following are true:
 - The Vitest test suite passes.
 - The frontend project builds successfully without blocking errors.
+- Responsive layouts are reviewed at phone, tablet, and desktop widths without
+  clipped content or page-level horizontal scrolling.
 - There is a working local run environment for the app.
 - A minimal AgentClinic home page is present and clearly introduces the product.
 - The dashboard shell is present and demonstrates a path into future clinic workflows.

@@ -19,6 +19,7 @@ fits the product's needs.
 
 - Prefer well-supported, widely used tools.
 - Keep the application type-safe across its boundaries where practical.
-- Prioritize reliability, accessibility, and a responsive interface.
+- Prioritize reliability, accessibility, and a responsive interface that works
+  across phone, tablet, and desktop viewports without horizontal overflow.
 - Avoid committing to infrastructure before the required workflows and data
   have been defined.

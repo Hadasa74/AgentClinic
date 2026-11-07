@@ -19,8 +19,8 @@ This work addresses the next roadmap phase: "Set up the frontend".
 
 4. Define the visual baseline
    - Add consistent typography, spacing, and color tokens.
-   - Create responsive layout behavior for desktop and smaller screens.
-   - Confirm the UI feels clean and trustworthy for clinic staff.
+   - Create responsive layout behavior for phone, tablet, and desktop screens.
+   - Confirm the UI stays readable and usable without horizontal overflow at representative viewport widths.
 
 5. Wire the dashboard entry points
    - Add the primary dashboard shell used by staff.

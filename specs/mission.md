@@ -18,4 +18,5 @@ access care.
 - Make care and next steps easy to understand.
 - Keep agent and staff workflows reliable and straightforward.
 - Treat agents, their humans, and clinic staff as first-class users.
-- Make the experience attractive and usable in modern browsers.
+- Make the experience attractive and usable in modern browsers at phone,
+  tablet, and desktop sizes without requiring horizontal scrolling.

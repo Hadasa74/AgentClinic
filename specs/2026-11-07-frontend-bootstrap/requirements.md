@@ -12,6 +12,7 @@ This feature is aligned with the next roadmap item in `specs/roadmap.md`: "Set u
 - Deliver a minimal AgentClinic home page as the first user-facing experience.
 - Provide a basic dashboard shell and navigation scaffolding.
 - Establish a visual foundation that can support later phases.
+- Make the web UI responsive across phone, tablet, and desktop viewport sizes.
 - Keep the implementation readable, maintainable, and ready for extension.
 
 ### Out of scope
@@ -33,6 +34,8 @@ AgentClinic exists to help agents and clinic staff understand care needs, find s
 
 ## Constraints
 - The app must be usable in a modern browser.
+- Core content and navigation must remain readable and usable at a 320px mobile
+  viewport and larger, without page-level horizontal scrolling.
 - The implementation should align with the mission and principles in `specs/mission.md`.
 - The stack should remain consistent with `specs/tech-stack.md`.
 - Feature work should keep the project ready for the next roadmap phase rather than solving future phases prematurely.
