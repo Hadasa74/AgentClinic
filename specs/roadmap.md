@@ -6,7 +6,7 @@ product requirements call for them.
 
 1. **Set up the frontend** — Create the TypeScript, React, and Vite application
    and confirm it runs in a modern browser.
-2. **Establish the visual foundation** — Add the shared page layout, navigation,
+2. **Establish the visual foundation — Complete** — Add the shared page layout, navigation,
    typography, colors, and responsive behavior.
 3. **Create the dashboard shell** — Build the staff dashboard structure with
    clear entry points to clinic workflows.
