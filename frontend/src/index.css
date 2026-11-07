@@ -1,3 +1,5 @@
+@import '@picocss/pico/css/pico.min.css';
+
 :root {
   font-family: Inter, 'Segoe UI', Roboto, sans-serif;
   line-height: 1.5;
