@@ -6,21 +6,16 @@ product requirements call for them.
 
 1. **Set up the frontend** — Create the TypeScript, React, and Vite application
    and confirm it runs in a modern browser.
-2. **Establish the visual foundation — Complete** — Add the shared page layout, navigation,
-   typography, colors, and responsive behavior across phone, tablet, and desktop sizes.
-3. **Create the dashboard shell** — Build the staff dashboard structure with
-   clear entry points to clinic workflows.
-4. **Represent agent profiles** — Define and display the basic agent
-   information needed by staff.
-5. **Add ailments** — Let staff view and manage the ailments associated with an
-   agent.
-6. **Add therapies** — Show available therapies and their relationship to
+2. **Build the clinic dashboard foundation** — Establish the shared responsive
+   layout, navigation, typography, and colors; build the staff dashboard shell
+   and initial agent profile and ailment views.
+3. **Add therapies** — Show available therapies and their relationship to
    ailments.
-7. **Support appointment booking** — Build the appointment selection and
+4. **Support appointment booking** — Build the appointment selection and
    booking flow.
-8. **Connect and persist workflows** — Select and implement backend, API,
+5. **Connect and persist workflows** — Select and implement backend, API,
    storage, and authentication capabilities based on the flows established so
    far.
-9. **Polish and verify** — Refine accessibility, verify responsive behavior at
+6. **Polish and verify** — Refine accessibility, verify responsive behavior at
    phone, tablet, and desktop sizes, and improve error and empty states and
    end-to-end reliability.
