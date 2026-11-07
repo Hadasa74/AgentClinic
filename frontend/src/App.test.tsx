@@ -30,4 +30,11 @@ describe('AgentClinic dashboard', () => {
     expect(markup).toContain('Therapy review')
     expect(markup).toContain('Scheduled')
   })
+
+  it('links to the therapies section from the dashboard navigation', () => {
+    const markup = renderToStaticMarkup(<App />)
+
+    expect(markup).toContain('href="#therapies">Therapies</a>')
+    expect(markup).toContain('id="therapies"')
+  })
 })

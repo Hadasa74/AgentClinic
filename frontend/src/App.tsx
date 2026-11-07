@@ -1,5 +1,6 @@
 import './App.css'
 import MainLayout from './MainLayout'
+import TherapiesSection from './TherapiesSection'
 
 const quickActions = [
   'Review agent profile',
@@ -96,7 +97,9 @@ function App() {
             <li className="selected">Overview</li>
             <li>Agents</li>
             <li>Ailments</li>
-            <li>Therapies</li>
+            <li>
+              <a href="#therapies">Therapies</a>
+            </li>
             <li>Appointments</li>
           </ul>
         </aside>
@@ -160,6 +163,8 @@ function App() {
               </div>
             </div>
           </div>
+
+          <TherapiesSection />
         </div>
       </section>
     </MainLayout>

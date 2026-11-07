@@ -20,7 +20,7 @@ function Header() {
         <a href="#">Home</a>
         <a href="#">Agents</a>
         <a href="#">Ailments</a>
-        <a href="#">Therapies</a>
+        <a href="#therapies">Therapies</a>
         <a href="#">Appointments</a>
       </nav>
 
