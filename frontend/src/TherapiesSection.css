@@ -17,7 +17,7 @@
   font-size: clamp(1.6rem, 2vw, 2.2rem);
 }
 
-.therapy-count {
+.therapy-context {
   margin: 0;
   color: #cbd5e1;
   font-size: 0.9rem;
@@ -35,6 +35,11 @@
   background: rgba(148, 163, 184, 0.04);
   border: 1px solid rgba(148, 163, 184, 0.12);
   border-radius: 16px;
+}
+
+.therapy-card[data-selected='true'] {
+  border-color: rgba(96, 165, 250, 0.65);
+  box-shadow: 0 0 0 1px rgba(96, 165, 250, 0.25);
 }
 
 .therapy-card h3 {
@@ -80,6 +85,11 @@
   border: 1px solid rgba(96, 165, 250, 0.2);
   border-radius: 999px;
   font-size: 0.82rem;
+}
+
+.therapy-card > .button {
+  width: 100%;
+  margin: 18px 0 0;
 }
 
 .therapy-empty-state {

@@ -17,20 +17,17 @@ function Header() {
       </div>
 
       <nav className="main-nav" aria-label="Main navigation">
-        <a href="#">Home</a>
-        <a href="#">Agents</a>
-        <a href="#">Ailments</a>
+        <a href="#dashboard">Home</a>
+        <a href="#agents">Agents</a>
+        <a href="#ailments">Ailments</a>
         <a href="#therapies">Therapies</a>
-        <a href="#">Appointments</a>
+        <a href="#appointments">Appointments</a>
       </nav>
 
       <div className="topbar-actions">
-        <button type="button" className="button secondary-button">
-          Sign in
-        </button>
-        <button type="button" className="button primary-button">
+        <a className="button primary-button" href="#booking">
           Book visit
-        </button>
+        </a>
       </div>
     </header>
   )
