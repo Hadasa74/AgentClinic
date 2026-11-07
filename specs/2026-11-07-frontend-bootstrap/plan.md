@@ -28,6 +28,6 @@ This work addresses the next roadmap phase: "Set up the frontend".
    - Leave each section readable and ready for later feature detail.
 
 6. Validate implementation readiness
-   - Run the build and startup checks required by the frontend stack.
+   - Run the Vitest suite with `npm test` from `frontend/`, as well as the frontend build and lint checks.
    - Review whether the app satisfies the mission and roadmap expectations.
    - Confirm the feature can be handed off to the next roadmap phase without unresolved blockers.

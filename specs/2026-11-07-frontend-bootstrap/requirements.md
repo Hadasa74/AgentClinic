@@ -26,6 +26,7 @@ AgentClinic exists to help agents and clinic staff understand care needs, find s
 ## Decisions
 - Use TypeScript as the application language.
 - Use React with Vite for the frontend stack.
+- Use Vitest to run automated frontend tests for validation.
 - Favor a simple, trustworthy UI shell that is clearly structured for future features.
 - Include a minimal AgentClinic home page as the first landing experience for users.
 - Keep backend, API, database, hosting, and authentication choices intentionally deferred until product workflows are clearer.

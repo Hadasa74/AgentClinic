@@ -5,6 +5,8 @@
 - Use TypeScript as the primary application language.
 - Build a modern browser-based experience.
 - Use React with Vite for the frontend.
+- Use Vitest tests to validate frontend behavior.
+- Run the frontend test suite from `frontend/` with `npm test` (`vitest run`).
 
 ## Deliberately undecided
 

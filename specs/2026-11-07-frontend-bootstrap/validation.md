@@ -24,8 +24,13 @@ This feature is considered complete when the frontend foundation is installed, r
    - The stack remains aligned with `specs/tech-stack.md`.
    - The code remains extensible for later phases such as agent profiles, ailments, therapies, and appointment booking.
 
+5. Automated frontend tests pass.
+   - Run `npm test` from `frontend/` using Vitest.
+   - Verify the shared layout renders its header, main content, and footer in order and preserves its children.
+
 ## Merge criteria
 The feature can be merged when all of the following are true:
+- The Vitest test suite passes.
 - The frontend project builds successfully without blocking errors.
 - There is a working local run environment for the app.
 - A minimal AgentClinic home page is present and clearly introduces the product.

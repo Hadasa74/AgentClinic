@@ -30,3 +30,13 @@ If you are developing a production application, we recommend enabling type-aware
 ```
 
 See the [Oxlint rules documentation](https://oxc.rs/docs/guide/usage/linter/rules) for the full list of rules and categories.
+
+## AgentClinic validation
+
+Run the frontend test suite from this directory with:
+
+```sh
+npm test
+```
+
+Tests use Vitest and cover the shared layout's header, main content, and footer.
